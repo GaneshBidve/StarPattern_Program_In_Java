@@ -18,7 +18,8 @@ public class Main {
 		pattern();
 	}
 	
-	/*
+/*	
+pattern-1
 * 
 * * 
 * * * 
