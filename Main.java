@@ -93,4 +93,29 @@ Pattern-3
 			System.out.println();
 		}
 	}
+	
+		/*
+Pattern-4
+--------------
+0 0 0 0 0 0 0 0 0 0 
+1 1 1 1 1 1 1 1 1 1 
+2 2 2 2 2 2 2 2 2 2 
+3 3 3 3 3 3 3 3 3 3 
+4 4 4 4 4 4 4 4 4 4 
+5 5 5 5 5 5 5 5 5 5 
+6 6 6 6 6 6 6 6 6 6 
+7 7 7 7 7 7 7 7 7 7 
+8 8 8 8 8 8 8 8 8 8 
+9 9 9 9 9 9 9 9 9 9 
+	 */
+	public static void pattern4() {
+		System.out.println("Pattern-4");
+		System.out.println("--------------");
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+		}
+	}
 }
