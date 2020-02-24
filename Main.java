@@ -269,4 +269,29 @@ A A A A A A A A A A
 			System.out.println();
 		}
 	}
+	
+		/*
+	 * Pattern-11
+--------------
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+* * * * * * * 
+* * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * * 
+	 */
+	public static void pattern11() {
+		System.out.println("Pattern-11");
+		System.out.println("--------------");
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.print("*" + " ");
+			}
+			System.out.println();
+		}
+	}
 }
