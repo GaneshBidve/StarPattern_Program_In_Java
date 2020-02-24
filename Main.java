@@ -219,4 +219,29 @@ J J J J J J J J J J
 			System.out.println();
 		}
 	}
+	
+		/*
+	 * Pattern-9
+--------------
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+J I H G F E D C B A 
+	 */
+	public static void pattern9() {
+		System.out.println("Pattern-9");
+		System.out.println("--------------");
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
+				System.out.print((char) (74 - j) + " ");
+			}
+			System.out.println();
+		}
+	}
 }
