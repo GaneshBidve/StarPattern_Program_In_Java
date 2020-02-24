@@ -294,4 +294,29 @@ A A A A A A A A A A
 			System.out.println();
 		}
 	}
+	
+		/*
+	 * Pattern-12
+--------------
+0 
+0 1 
+0 1 2 
+0 1 2 3 
+0 1 2 3 4 
+0 1 2 3 4 5 
+0 1 2 3 4 5 6 
+0 1 2 3 4 5 6 7 
+0 1 2 3 4 5 6 7 8 
+0 1 2 3 4 5 6 7 8 9 
+	 */
+	public static void pattern12() {
+		System.out.println("Pattern-12");
+		System.out.println("--------------");
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.print(j + " ");
+			}
+			System.out.println();
+		}
+	}
 }
